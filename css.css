@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff; /* Light blue background */
+}
+
+header {
+    background: linear-gradient(45deg, #ff7f50, #ff6347); /* Gradient from coral to tomato */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 20px;
+}
+
+#new-post, #posts {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ff7f50;
+    border-radius: 6px;
+    background: #ffebcd; /* Blanched almond background */
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6347; /* Tomato color */
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background: #32cd32; /* Lime green */
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background: #228b22; /* Forest green */
+}
+
+.post {
+    background: #f5f5dc; /* Beige background */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #ff7f50; /* Coral border */
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.post:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #ff6347; /* Tomato color */
+}
+
+.delete-btn {
+    background: #ff4500; /* Orange red */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background: #dc143c; /* Crimson */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(45deg, #ff6347, #ff7f50); /* Gradient from tomato to coral */
+    color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
